@@ -5,12 +5,22 @@
     <link>https://yijie-li2022.github.io/tag/deep-learning/</link>
       <atom:link href="https://yijie-li2022.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yijie-li2022.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
       <link>https://yijie-li2022.github.io/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>PaddlePaddle Reproduction of DDPM/DDIM is now released</title>
+      <link>https://yijie-li2022.github.io/post/paddlepaddle-ddpm-released/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/post/paddlepaddle-ddpm-released/</guid>
+      <description>&lt;p&gt;My PaddlePaddle reproduction of paper Denoising Diffusion Probabilistic Models and Denoising Diffusion Implicit Models
+is now released, see &lt;code&gt;code&lt;/code&gt; or &lt;code&gt;project&lt;/code&gt; above for details.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Simple Deep Learning System</title>
