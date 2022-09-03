@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
+    <title>Yijie Li</title>
     <link>https://yijie-li2022.github.io/</link>
       <atom:link href="https://yijie-li2022.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <description>Yijie Li</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yijie-li2022.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Academic</title>
+      <title>Yijie Li</title>
       <link>https://yijie-li2022.github.io/</link>
     </image>
     
@@ -245,6 +245,32 @@ $$&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PaddlePaddle Reproduction of DDPM</title>
+      <link>https://yijie-li2022.github.io/project/paddlepaddle-ddpm/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/project/paddlepaddle-ddpm/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is a PaddlePaddle reproduction of Denoising Diffusion Probabilistic Models (DDPM) and Denoising Diffusion Implicit Models (DDIM). We trained the diffusion model with original-designed UNet on CIFAR10 (32X32) and simplified verison (FPN, according to &lt;a href=&#34;https://github.com/bojone/Keras-DDPM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Keras-DDPM&lt;/a&gt;) on CelebA-HQ (128X128).&lt;/p&gt;
+&lt;div style=&#39;color: red&#39;&gt;Warning: We don&#39;t recommend you to use the CIFAR10 training script of this repo, because it may have some bugs which may lead to a low FID, and we will try to fix this problem in the future.&lt;/div&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Download pretrained weights and place in folder &lt;code&gt;ckpt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1VV7IH0mXzIwtCFXlCers7w?pwd=tew7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Yun&lt;/a&gt;, password: &lt;code&gt;tew7&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use pretrained weights to do the generation (DDPM)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python run_cifar10.py --pretrained_path &amp;#39;./ckpts/ddpm_cifar10_i800000_ema.pdparam&amp;#39; --num_images &amp;#39;400-20-20&amp;#39; --mode &amp;#39;denoise&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use pretrained weights to do the generation (DDIM)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python run_celeba_hq_ddim.py --pretrained_path &amp;#39;./ckpts/ddpm_cifar10_i1000000_ema.pdparam&amp;#39; --num_images &amp;#39;64-8-8&amp;#39; --batchsize 64
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
