@@ -874,12 +874,30 @@ convolution nerual networks and CUDA in the future.</p>
 <h2 id="quick-start">Quick Start</h2>
 <ul>
 <li>
+<p>Download MNIST dataset and place it in ./dataset/mnist,</p>
+<ul>
+<li><a href="http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz" target="_blank" rel="noopener">http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz</a></li>
+<li><a href="http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz" target="_blank" rel="noopener">http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz</a></li>
+<li><a href="http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz" target="_blank" rel="noopener">http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz</a></li>
+<li><a href="http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz" target="_blank" rel="noopener">http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz</a></li>
+</ul>
+<p>then it should satisfy the structure below</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">├─dataset
+</span></span><span class="line"><span class="cl">    └─mnist
+</span></span><span class="line"><span class="cl">        ├─ source.txt
+</span></span><span class="line"><span class="cl">        ├─ t10k-images.idx3-ubyte
+</span></span><span class="line"><span class="cl">        ├─ t10k-labels.idx1-ubyte
+</span></span><span class="line"><span class="cl">        ├─ train-images.idx3-ubyte
+</span></span><span class="line"><span class="cl">        └─ train-labels.idx1-ubyte
+</span></span></code></pre></div></li>
+<li>
 <p>Run example of linear regression</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">python ex_linear_regression.py
 </span></span></code></pre></div></li>
 <li>
 <p>Run example of MLP on MNIST dataset</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">python ex_mlp_mnist.py
+</span></span><span class="line"><span class="cl">```x_mlp_mnist.py
 </span></span></code></pre></div></li>
 </ul>
 
