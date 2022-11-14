@@ -57,7 +57,7 @@ convolution nerual networks and CUDA in the future.&lt;/p&gt;
     <item>
       <title>PaddlePaddle Reproduction of DDPM</title>
       <link>https://yijie-li2022.github.io/project/paddlepaddle-ddpm/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yijie-li2022.github.io/project/paddlepaddle-ddpm/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This is a PaddlePaddle reproduction of Denoising Diffusion Probabilistic Models (DDPM) and Denoising Diffusion Implicit Models (DDIM). We trained the diffusion model with original-designed UNet on CIFAR10 (32X32) and simplified verison (FPN, according to &lt;a href=&#34;https://github.com/bojone/Keras-DDPM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Keras-DDPM&lt;/a&gt;) on CelebA-HQ (128X128).&lt;/p&gt;
