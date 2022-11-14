@@ -33,6 +33,17 @@
     </item>
     
     <item>
+      <title>Python CUDA extension</title>
+      <link>https://yijie-li2022.github.io/project/python-cuda-extension/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/project/python-cuda-extension/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is a python-cuda extension which aim to provide tensor acceleration. This extension now support a number of basic operations and more functions will be added to this project in the future.&lt;/p&gt;
+&lt;p&gt;Please remember that &lt;div style=&#39;color: red&#39;&gt;THIS PROJECT IS COMPLETELY DIFFERENT FROM THE NVIDIA PYCUDA LIBRARY.&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PaddlePaddle Reproduction of DDPM/DDIM is now released</title>
       <link>https://yijie-li2022.github.io/post/paddlepaddle-ddpm-released/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>

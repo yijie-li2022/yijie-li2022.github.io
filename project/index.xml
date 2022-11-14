@@ -5,12 +5,23 @@
     <link>https://yijie-li2022.github.io/project/</link>
       <atom:link href="https://yijie-li2022.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yijie-li2022.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://yijie-li2022.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Python CUDA extension</title>
+      <link>https://yijie-li2022.github.io/project/python-cuda-extension/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/project/python-cuda-extension/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is a python-cuda extension which aim to provide tensor acceleration. This extension now support a number of basic operations and more functions will be added to this project in the future.&lt;/p&gt;
+&lt;p&gt;Please remember that &lt;div style=&#39;color: red&#39;&gt;THIS PROJECT IS COMPLETELY DIFFERENT FROM THE NVIDIA PYCUDA LIBRARY.&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Simple Deep Learning System</title>
