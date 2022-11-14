@@ -39,6 +39,20 @@
       <guid>https://yijie-li2022.github.io/project/des-pyqt/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This is a python implementation of DES encryption algorithms with PyQT GUI.&lt;/p&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;Download win64 executable file from &lt;a href=&#34;https://github.com/Att100/DES-Encryption-PyQT/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; and follow the instruction in &lt;a href=&#34;https://github.com/Att100/DES-Encryption-PyQT/blob/main/doc/images.pptx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DES-secure Communciation</title>
+      <link>https://yijie-li2022.github.io/project/des-secure-communication-pyqt/</link>
+      <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/project/des-secure-communication-pyqt/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is a python implementation of DES-secure Communication software with PyQT GUI.&lt;/p&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;Download win64 executable file from &lt;a href=&#34;&#34;&gt;link&lt;/a&gt; and follow the instruction in &lt;a href=&#34;&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
