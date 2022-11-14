@@ -5,12 +5,22 @@
     <link>https://yijie-li2022.github.io/project/</link>
       <atom:link href="https://yijie-li2022.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yijie-li2022.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://yijie-li2022.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>DES Encryption Algorithm</title>
+      <link>https://yijie-li2022.github.io/project/des-pyqt/</link>
+      <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/project/des-pyqt/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is a python implementation of DES encryption algorithms with PyQT GUI.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Python CUDA extension</title>

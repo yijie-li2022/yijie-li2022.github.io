@@ -33,6 +33,16 @@
     </item>
     
     <item>
+      <title>DES Encryption Algorithm</title>
+      <link>https://yijie-li2022.github.io/project/des-pyqt/</link>
+      <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/project/des-pyqt/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is a python implementation of DES encryption algorithms with PyQT GUI.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Python CUDA extension</title>
       <link>https://yijie-li2022.github.io/project/python-cuda-extension/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
