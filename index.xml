@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>BSANet: A Bilateral Segregation and Aggregation Network for Real-time Sky/Cloud Segmentation</title>
+      <link>https://yijie-li2022.github.io/publication/bsanet-2022/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/publication/bsanet-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DES Encryption Algorithm</title>
       <link>https://yijie-li2022.github.io/project/des-pyqt/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
@@ -68,6 +76,14 @@
     </item>
     
     <item>
+      <title>DAANet: Dual Attention Aggregating Network for Salient Object Detection</title>
+      <link>https://yijie-li2022.github.io/publication/daanet-2022/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/publication/daanet-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>PaddlePaddle Reproduction of DDPM/DDIM is now released</title>
       <link>https://yijie-li2022.github.io/post/paddlepaddle-ddpm-released/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
@@ -78,18 +94,26 @@ is now released, see &lt;code&gt;code&lt;/code&gt; or &lt;code&gt;project&lt;/co
     </item>
     
     <item>
+      <title>SYGNet: A SVD-YOLO based GhostNet for Real-time Driving Scene Parsing</title>
+      <link>https://yijie-li2022.github.io/publication/sygnet-2022/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/publication/sygnet-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AMDCNet: An attentional multi-directional convolutional network for stereo matching</title>
       <link>https://yijie-li2022.github.io/publication/amdcnet-2022/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
       <guid>https://yijie-li2022.github.io/publication/amdcnet-2022/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SYGNet: A SVD-YOLO based GhostNet for Real-time Driving Scene Parsing</title>
-      <link>https://yijie-li2022.github.io/publication/sygnet-2022/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://yijie-li2022.github.io/publication/sygnet-2022/</guid>
+      <title>UCloudNet: A Residual U-Net with Deep Supervision for Sky/Cloud Image Segmentation</title>
+      <link>https://yijie-li2022.github.io/publication/ucloudnet-2022/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/publication/ucloudnet-2022/</guid>
       <description></description>
     </item>
     
