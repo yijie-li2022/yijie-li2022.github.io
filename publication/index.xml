@@ -20,5 +20,13 @@
       <description></description>
     </item>
     
+    <item>
+      <title>SYGNet: A SVD-YOLO based GhostNet for Real-time Driving Scene Parsing</title>
+      <link>https://yijie-li2022.github.io/publication/sygnet-2022/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://yijie-li2022.github.io/publication/sygnet-2022/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
