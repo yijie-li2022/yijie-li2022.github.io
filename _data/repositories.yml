@@ -1,12 +1,25 @@
-github_users:
-  - torvalds
-  - alshedivat
+# github_users:
+#   - torvalds
+#   - alshedivat
 
-github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+# github_repos:
+#   - alshedivat/al-folio
+#   - twbs/bootstrap
+#   - jekyll/jekyll
+#   - jquery/jquery
+#   - FortAwesome/Font-Awesome
+#   - jpswalsh/academicons
+#   - mathjax/MathJax
+
+project_repos:
+  - Att100/PaddlePaddle-DDPM
+  - Att100/Python-Cuda-Extension
+  - Att100/Simple-DeepLearning-System
+
+paper_repos:
+  - Att100/BSANet-cloudseg
+  - Att100/DAANet
+  - Att100/UCloudNet
+  - WangHewei16/AMDCNet-for-Stereo-Matching
+  - WangHewei16/SYGNet-for-Real-time-Driving-Scene-Parsing
+

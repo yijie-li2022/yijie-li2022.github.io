@@ -2,26 +2,27 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <div class="col-sm-3 {% if entry.abbr %}abbr{% else %}preview{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" style="width: 160px; height: 120px; object-fit: cover;">
           {%- else -%}
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
-            {% include figure.html
-            path=entry_path
-            class="preview z-depth-1 rounded"
-            alt=entry.preview -%}
+            <img class="preview z-depth-1 rounded" src="{{ entry_path }}" style="width: 160px; height: 120px; object-fit: cover;">
           {%- endif -%}
-        {%- elsif entry.abbr -%}
+          {%- assign abbr_style = 'position: absolute; top: 6px; left: 12px;' -%}
+        {%- else -%}
+          {%- assign abbr_style = '' -%}
+        {%- endif -%}
+        {%- if entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
             {%- assign venue_style = nil -%}
             {%- if site.data.venues[entry.abbr].color != blank -%}
               {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}" style="{{ abbr_style }}">{{entry.abbr}}</a></abbr>
           {%- else -%}
-            <abbr class="badge">{{entry.abbr}}</abbr>
+            <abbr class="badge" style="{{ abbr_style }}">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
         </div>
@@ -185,7 +186,7 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           </div>
-          {% if site.badges %}
+          {%- if site.badges %}
           <div class="badges">
             {%- if site.badges.altmetric_badge %}
             <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"

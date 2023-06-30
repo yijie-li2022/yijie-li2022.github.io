@@ -1,25 +1,37 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: true # crops the image to make it circular
+  address:
+  # address: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Master Student<br>
+MSc in Artificial Intelligence<br>
+McCormick School of Engineering<br>
+Northwestern University, Evanston, IL, U.S.A<br>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<a href="#"><img src="assets/img/icons/envelope-solid.svg" width="32px" height="32px"/></a>
+<a href="#"><img src="assets/img/icons/square-github.svg" width="32px" height="32px"/></a>
+<a href="#"><img src="assets/img/icons/linkedin.svg" width="32px" height="32px"/></a>
+<a href="#"><img src="assets/img/icons/google-scholar-square.svg" width="32px" height="32px"/></a><br>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a Master student majoring in `Artificial Intelligence` at Northwestern University. I have recieved my bachelor's degree (`Software Engineering`, dual degree program) from University College Dublin (UCD) and Beijing University of Technology(BJUT) in July 2023. 
+
+I was a research intern at Tsinghua University in 2022~2023, focusing on generative adversarial networks (GAN), advised by Professor [Yongjin Liu](http://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm). Before that, I was working on several topics related to computer vision, supervised by Dr. [Soumyabrata Dev](https://soumyabrata.dev/) and Professor [Shaofan Wang](https://shaofanwang.weebly.com/) at UCD and BJUT.
+
+My current researches focuses on accurate real-time salient object detection (SOD), application of computer vision in meteorology, and generative models. My research interests lies in remote sensensing, efficient segmentation and detection algorithms, image generation, image attribute manipulation, etc.
