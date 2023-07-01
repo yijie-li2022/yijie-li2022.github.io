@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>project 1 | Yijie  Li</title>
+    <title>DDPM | Yijie  Li</title>
     <meta name="author" content="Yijie  Li">
-    <meta name="description" content="a project with a background image">
+    <meta name="description" content="PaddlePaddle reproduction of Denoising Diffusion Probabilistic Models (DDPM)">
 
 
     <!-- Bootstrap & MDB -->
@@ -112,24 +112,38 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">project 1</h1>
-            <p class="post-description">a project with a background image</p>
+            <h1 class="post-title">DDPM</h1>
+            <p class="post-description">PaddlePaddle reproduction of Denoising Diffusion Probabilistic Models (DDPM)</p>
           </header>
 
           <article>
-            <p>Every project has a beautiful feature showcase page.
-It’s easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.</p>
+            <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
-<p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p>
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project_images/project_1_img_0-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project_images/project_1_img_0-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project_images/project_1_img_0-1400.webp"></source>
+    
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: page
-title: project
-description: a project with a background image
-img: /assets/img/12.jpg
----
-</code></pre></div></div>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project_images/project_1_img_0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Denoising Diffusion Probabilistic Models (DDPM)
+</div>
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<p>This is a PaddlePaddle reproduction of <a href="https://arxiv.org/abs/2006.11239" rel="external nofollow noopener" target="_blank">Denoising Diffusion Probabilistic Models (DDPM)</a> and <a href="https://arxiv.org/abs/2010.02502" rel="external nofollow noopener" target="_blank">Denoising Diffusion Implicit Models (DDIM)</a>. We trained the diffusion model with original-designed UNet on CIFAR10 (32X32) and simplified verison (FPN, according to <a href="https://github.com/bojone/Keras-DDPM" rel="external nofollow noopener" target="_blank">Keras-DDPM</a>) on CelebA-HQ (128X128).</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -137,49 +151,13 @@ img: /assets/img/12.jpg
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/1-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/1-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/1-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project_images/project_1_img_1-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project_images/project_1_img_1-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project_images/project_1_img_1-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/1.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/3-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/3.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/5-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/project_images/project_1_img_1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -188,21 +166,24 @@ img: /assets/img/12.jpg
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    CelebA-HQ (DDPM) generated samples
 </div>
+
+<h2 id="2-ddim--progressive-generation">2. DDIM &amp; Progressive Generation</h2>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/5-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project_images/project_1_img_2-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project_images/project_1_img_2-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project_images/project_1_img_2-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/project_images/project_1_img_2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -211,44 +192,22 @@ img: /assets/img/12.jpg
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    CelebA-HQ (DDIM, stride 10) generated samples
 </div>
 
-<p>You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, <em>bled</em> for your project, and then… you reveal its glory in the next row of images.</p>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/6-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/6-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/6-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project_images/project_1_img_3-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project_images/project_1_img_3-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project_images/project_1_img_3-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/6.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/11-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/11-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/11-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/11.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/project_images/project_1_img_3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -257,24 +216,142 @@ You describe how you toiled, sweated, <em>bled</em> for your project, and then�
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    CelebA-HQ (DDPM) progressive generation
 </div>
 
-<p>The code is simple.
-Just wrap your images with <code class="language-plaintext highlighter-rouge">&lt;div class="col-sm"&gt;</code> and place them inside <code class="language-plaintext highlighter-rouge">&lt;div class="row"&gt;</code> (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" rel="external nofollow noopener" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add <code class="language-plaintext highlighter-rouge">img-fluid</code> class to each; for rounded corners and shadows use <code class="language-plaintext highlighter-rouge">rounded</code> and <code class="language-plaintext highlighter-rouge">z-depth-1</code> classes.
-Here’s the code for the last row of images above:</p>
+<h2 id="3-training">3. Training</h2>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-sm-center"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-8 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
+<h3 id="31-datasets">3.1 Datasets</h3>
+
+<ul>
+  <li>
+    <p>CIFAR10</p>
+  </li>
+  <li>
+    <p>CelebA-HQ (please download and place it in datasets folder)</p>
+  </li>
+</ul>
+
+<h3 id="32-train-from-scratch">3.2 Train from scratch</h3>
+
+<ul>
+  <li>
+    <p>CIFAR10</p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  # train with default
+  python run_cifar10.py
+</code></pre></div>    </div>
+
+    <p><code class="language-plaintext highlighter-rouge">note</code>: training on Tesla V100 16G GPU with default configuration (800k iters) requires about 100 hours.</p>
+  </li>
+  <li>
+    <p>CelebA-HQ</p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  # train with default
+  python run_celeba_hq.py
+
+  # the sampling procedure in training is time-consupming, you can use '--sample_interval 5000' to reduce the frequency
+</code></pre></div>    </div>
+
+    <p><code class="language-plaintext highlighter-rouge">note</code>: training on Tesla V100 16G GPU with default configuration (1000k iters) requires about 120 hours.</p>
+  </li>
+</ul>
+
+<h3 id="33-resume-training">3.3 Resume training</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># CIFAR10
+python run_cifar10.py --resume_ckpt_path '&lt;CHECKPOINT_PATH&gt;' --resume True
+
+# CelebA-HQ
+python run_celeba_hq.py --resume_ckpt_path '&lt;CHECKPOINT_PATH&gt;' --resume True
 </code></pre></div></div>
 
+<h2 id="4-sampling">4. Sampling</h2>
+
+<h3 id="41-pre-trained-weights">4.1 Pre-trained Weights</h3>
+
+<p><a href="https://pan.baidu.com/s/1VV7IH0mXzIwtCFXlCers7w?pwd=tew7" rel="external nofollow noopener" target="_blank">Baidu Yun</a>, password: <code class="language-plaintext highlighter-rouge">tew7</code></p>
+
+<h3 id="42-ddpm">4.2 DDPM</h3>
+
+<ul>
+  <li>
+    <p>CIFAR10</p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  # 1. convert ckpt to pretrained weights
+  python run_cifar10.py --pretrained_path './ckpts/ddpm_cifar10_i800000_ema.pdparam' --resume_ckpt_path './ckpts/cifar10_ckpt_iter_800000.pdparam' --mode 'convert'
+
+  # 2. sample 400 images (20X20)
+  python run_cifar10.py --pretrained_path './ckpts/ddpm_cifar10_i800000_ema.pdparam' --num_images '400-20-20' --mode 'denoise'
+
+  # 3. sample 16 images with progressive generation
+  python run_cifar10.py --pretrained_path './ckpts/ddpm_cifar10_i800000_ema.pdparam' --num_images '16-4-4'  --mode 'denoise' --sample_postfix 'ddpm_cifar10_sequence' --sequence True
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>CelebA-HQ</p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  # 1. convert ckpt to pretrained weights
+  python run_celeba_hq.py --pretrained_path './ckpts/ddpm_celeba_hq_i1000000_ema.pdparam' --resume_ckpt_path './ckpts/celeba_hq_ckpt_iter_1000000.pdparam' --mode 'convert'
+
+  # 2. sample 64 images (8X8)
+  python run_celeba_hq.py --pretrained_path './ckpts/ddpm_celeba_hq_i1000000_ema.pdparam' --num_images '64-8-8' --mode 'denoise' --batchsize 64
+
+  # 3. sample 8 images with progressive generation
+  python run_celeba_hq.py --pretrained_path './ckpts/ddpm_celeba_hq_i1000000_ema.pdparam' --num_images '8-4-2'  --mode 'denoise' --sample_postfix 'ddpm_celeba_hq_sequence' --sequence True
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="43-ddim">4.3 DDIM</h3>
+
+<p><code class="language-plaintext highlighter-rouge">note</code>: you need to convert the weights if you want to use the checkpoints (see 2.1)</p>
+
+<ul>
+  <li>
+    <p>CIFAR10</p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  # 1. sample 400 images (20X20)
+  python run_cifar10_ddim.py --pretrained_path './ckpts/ddpm_cifar10_i800000_ema.pdparam' --num_images '400-20-20'
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>CelebA-HQ</p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  # 1. sample 64 images (8X8)
+  python run_celeba_hq_ddim.py --pretrained_path './ckpts/ddpm_cifar10_i1000000_ema.pdparam' --num_images '64-8-8' --batchsize 64
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="5-references">5. References</h2>
+
+<ul>
+  <li>
+    <p>Paper</p>
+
+    <ol>
+      <li><a href="https://arxiv.org/abs/2006.11239" rel="external nofollow noopener" target="_blank">Denoising Diffusion Probabilistic Models</a></li>
+      <li><a href="http://arxiv.org/abs/2010.02502" rel="external nofollow noopener" target="_blank">Denoising Diffusion Implicit Models</a></li>
+    </ol>
+  </li>
+  <li>
+    <p>Code</p>
+
+    <ol>
+      <li><a href="https://github.com/bojone/Keras-DDPM" rel="external nofollow noopener" target="_blank">Keras-DDPM</a></li>
+      <li><a href="https://github.com/hojonathanho/diffusion" rel="external nofollow noopener" target="_blank">diffusion</a></li>
+      <li><a href="https://github.com/ermongroup/ddim" rel="external nofollow noopener" target="_blank">ddim</a></li>
+      <li><a href="https://github.com/w86763777/pytorch-ddpm" rel="external nofollow noopener" target="_blank">pytorch-ddpm</a></li>
+    </ol>
+  </li>
+</ul>
 
           </article>
 
@@ -284,7 +361,7 @@ Here’s the code for the last row of images above:</p>
 
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
-        © Copyright 2023 Yijie  Li. Last updated: June 30, 2023.
+        © Copyright 2023 Yijie  Li. Last updated: July 01, 2023.
       </div>
     </footer>
 
