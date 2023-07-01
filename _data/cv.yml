@@ -4,7 +4,7 @@
     - name: Full Name
       value: Yijie Li
     - name: Occupation
-      value: Master Student
+      value: Graduate Student
     - name: Languages
       value: Chinese, English
 
@@ -44,12 +44,12 @@
 - title: Achievements
   type: time_table
   contents:
-    - title: <a href="#">Nerual Network and Deep Learning</a>
+    - title: <a href="https://www.coursera.org/learn/neural-networks-deep-learning">Nerual Network and Deep Learning</a>
       year: 2020
       description: 
         - <b>Coursera & DeepLearning.AI</b>
         - Jul. 2020
-        - <a href="#"><b>Certificate</b></a>
+        - <a href="https://coursera.org/share/9198bf9e5641668612752b5cd17be8a2"><b>Certificate</b></a>
 
 - title: Honors and Awards
   type: time_table

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [AMDCNet: An attentional multi-directional convolutional network for stereo matching]() is accepted by Displays.
+Our paper [AMDCNet: An attentional multi-directional convolutional network for stereo matching](https://www.sciencedirect.com/science/article/pii/S0141938222000695) is accepted by Displays.
