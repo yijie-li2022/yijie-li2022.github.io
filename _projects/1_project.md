@@ -19,7 +19,7 @@ category: work
 
 ## 1. Introduction
 
-This is a PaddlePaddle reproduction of [Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239) and [Denoising Diffusion Implicit Models (DDIM)](https://arxiv.org/abs/2010.02502). We trained the diffusion model with original-designed UNet on CIFAR10 (32X32) and simplified verison (FPN, according to [Keras-DDPM](https://github.com/bojone/Keras-DDPM)) on CelebA-HQ (128X128). 
+This is a PaddlePaddle reproduction of [Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239) and [Denoising Diffusion Implicit Models (DDIM)](https://arxiv.org/abs/2010.02502). We trained the diffusion model with original-designed UNet on CIFAR10 (32X32) and simplified verison (FPN, according to [Keras-DDPM](https://github.com/bojone/Keras-DDPM)) on CelebA-HQ (128X128). The code of this reproduction can be found in [link](https://github.com/Att100/PaddlePaddle-DDPM).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
