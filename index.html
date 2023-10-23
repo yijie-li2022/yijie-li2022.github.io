@@ -132,7 +132,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded-circle" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/prof_pic.jpeg" class="img-fluid z-depth-1 rounded-circle" width="auto" height="auto" alt="prof_pic.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -337,6 +337,66 @@ Northwestern University, Evanston, IL<br></p>
         </div>
       </div>
 </li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-3 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/mfcsnet-entertainment.png" style="width: 160px; height: 120px; object-fit: cover;"></div>
+
+        <!-- Entry bib key -->
+        <div id="wang2023mfcsnet" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">MFCSNet: A Musician-Follower Complex Social Network for measuring musical influence</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Hewei Wang, Yijie Li, Kaiwen Gong, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Muhammad Salman Pathan, Bolun Zhu, Ziyuan Wen, Soumyabrata Dev' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Entertainment Computing</em>, 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/pdf/SCI-Elsevier-Entertainment-Computing-MFCSNet.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/WangHewei16/MFCSNet-for-Measure-Musical-Influence" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">wang2023mfcsnet</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{MFCSNet: A Musician-Follower Complex Social Network for measuring musical influence}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Hewei and Li, Yijie and Gong, Kaiwen and Pathan, Muhammad Salman and Zhu, Bolun and Wen, Ziyuan and Dev, Soumyabrata}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Entertainment Computing}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{48}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{100601}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
 </ol>
           </div>
 
@@ -350,7 +410,7 @@ Northwestern University, Evanston, IL<br></p>
 
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
-        © Copyright 2023 Yijie  Li. Last updated: September 12, 2023.
+        © Copyright 2023 Yijie  Li. Last updated: October 23, 2023.
       </div>
     </footer>
 
